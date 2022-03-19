@@ -1,0 +1,110 @@
+    header {
+        background-color: grey;
+        color: rgb(26, 15, 18);
+        padding: 30px;
+        text-align: center;
+        margin: 5px;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: grey;
+        color: black;
+        padding: 20px;
+        text-align: center;
+        margin: 5px;
+    }
+    
+    div.wyszukiwarka {
+        /*display: inline-block;*/
+        float: right;
+        text-align: right;
+        width: 24%;
+    }
+    
+    div.lista {
+        /*display: inline-block;*/
+        background-color: rgb(255, 174, 187);
+        padding: 10px;
+        text-align: left;
+        color: rgb(68, 40, 40);
+        text-decoration: underline;
+        margin: 5px;
+        height: 50%;
+    }
+    
+    .form-container {
+        display: inline-block;
+        text-align: center;
+        width: 52%;
+        clear: both;
+    }
+    
+    div.form {
+        /*display: inline-block;*/
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(255, 174, 187);
+        padding: 30px;
+        margin: 5px;
+        height: 100%;
+    }
+    
+    div.form table {
+        width: 100%;
+    }
+    
+    div.form input {
+        text-align: left;
+    }
+    
+    div.form td {
+        text-align: left;
+    }
+    
+    label {
+        display: block;
+        float: left;
+        width: 100px;
+    }
+    
+    div.wyszukiwarka {
+        display: inline-block;
+        width: 24%;
+        margin: -50 auto;
+    }
+    
+    div.odn {
+        display: block;
+        text-align: left;
+        background-color: rgb(255, 174, 187);
+        padding: 8px;
+        margin: 2px;
+        box-shadow: 1px 1px;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .column {
+        float: left;
+        padding: 5px;
+    }
+    
+    .c1 {
+        width: 30%
+    }
+    
+    .c2 {
+        width: 40%;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }

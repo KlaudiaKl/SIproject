@@ -1,0 +1,2 @@
+<p>
+Strona główna</p>
